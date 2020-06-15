@@ -1,8 +1,8 @@
 //// Integer Reversal
 
 let reverseInt = (num) => {
-    let reverse = num.toString().split('').reverse().join('');
-    return Math.sign(num) * parseInt(reverse);
+    let reverseNum = num.toString().split('').reverse().join('');
+    return Math.sign(num) * parseInt(reverseNum);
 
 }
 
